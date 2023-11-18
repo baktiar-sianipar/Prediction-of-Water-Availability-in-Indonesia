@@ -18,3 +18,16 @@ Data ini mengukur persentase hutan di Indonesia. Data ini menunjukkan seberapa b
 Data ini mengukur luas hutan di Indonesia dalam kilometer persegi (sq. km). Ini adalah ukuran absolut dari luas hutan yang masih ada di negara tersebut. Ini penting untuk memahami ukuran aktual dari sumber daya hutan yang tersedia.
 
 ## Metode Prediksi
+### Descriptive Statistics - Basic Measures
+Calculate mean
+Calculate median
+Calculate standard deviation
+### Exploratory Data Analysis - Univariate Analysis
+Density Plot
+### Exploratory Data Analysis 2 - Bivariate Analysis
+Correlation Matrix
+Scatter Plot
+### Supervised Learning - Regression
+Simple Linear Regression
+### Unsupervised Learning - K-Means Clustering
+K-Means Clustering
