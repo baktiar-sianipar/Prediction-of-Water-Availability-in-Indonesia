@@ -30,13 +30,18 @@ Nilai minimum dan maksimum memberikan batasan atas dan bawah dari rentang nilai 
 #### Calculate Quartiles
 Kuartil dapat membantu memahami distribusi data yang lebih rinci, termasuk adanya potensi outlier.
 ### Exploratory Data Analysis - Univariate Analysis
-Histogram
-Bar Chart
-Density Plot, untuk mencari tahu distribusi nilai
+#### Histogram
+Histogram membantu memahami pola distribusi data, apakah data terdistribusi normal, bimodal, atau memiliki karakteristik lainnya. Ini juga dapat membantu mengidentifikasi outlier dan memahami sebaran data.
+#### Bar Chart
+#### Density Plot
+Density plot berguna untuk memahami hubungan antara dua variabel seperti "Annual Freshwater Withdrawals" dan "Forest Area (sq. km)." Density plot dapat membantu melihat sebaran data secara lebih rinci dan mengidentifikasi pola yang mungkin sulit dilihat dalam scatter plot biasa.
 ### Exploratory Data Analysis 2 - Bivariate Analysis
-Correlation Matrix
-Scatter Plot
-Boxplot
+#### Correlation Matrix
+Correlation matrix membantu mengidentifikasi korelasi positif atau negatif antara variabel, yang penting dalam pemilihan fitur untuk model prediksi.
+#### Scatter Plot
+Scatter Plot membantu melihat hubungan antara dua variabel numerik dalam bentuk titik-titik pada grafik. Ini sangat bermanfaat untuk memahami korelasi antara "Annual Freshwater Withdrawals" dan "Level of Water Stress" atau variabel lainnya. Anda dapat melihat pola linear atau nonlinear dan mengidentifikasi outlier.
+#### Boxplot
+Boxplot membantu melihat distribusi dan statistik penting seperti kuartil, median, dan outlier untuk satu atau beberapa variabel numerik.
 ### Supervised Learning - Regression
 Simple Linear Regression
 ### Unsupervised Learning - K-Means Clustering
