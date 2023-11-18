@@ -19,14 +19,24 @@ Data ini mengukur luas hutan di Indonesia dalam kilometer persegi (sq. km). Ini 
 
 ## Metode Prediksi
 ### Descriptive Statistics - Basic Measures
-Calculate mean
-Calculate median
-Calculate standard deviation
+#### Calculate mean
+Cari rata-rata dari variabel seperti "Annual Freshwater Withdrawals" dan "Forest Area (% of Land Area)." Rata-rata ini dapat membantu memahami tingkat pengambilan air tawar tahunan dan persentase luas daratan yang ditutupi oleh hutan secara keseluruhan.
+#### Calculate median
+Cari median dari variabel-variabel numerik untuk memahami distribusi data yang mungkin memiliki outlier. Misalnya, jika median "Level of Water Stress" jauh lebih rendah daripada rata-ratanya, itu bisa menjadi indikasi adanya outlier dalam data yang mempengaruhi hasil rata-rata.
+#### Calculate standard deviation
+Cari sejauh mana data tersebar dari nilai rata-rata. Semakin tinggi deviasi standar, semakin besar variasi dalam data. Tingkat variabilitas dalam data dapat berdampak pada akurasi model prediksi. Variabilitas yang tinggi dapat mempersulit prediksi yang akurat.
+#### Calculate Min & max
+Nilai minimum dan maksimum memberikan batasan atas dan bawah dari rentang nilai yang ada dalam dataset. Dalam konteks yang akan dianalisis, ini bisa memberi gagasan tentang kisaran pengambilan air tawar tahunan, kisaran tingkat tekanan air, serta ukuran minimum dan maksimum dari luas hutan. Informasi ini dapat membantu mengidentifikasi data ekstrem atau outliner.
+#### Calculate Quartiles
+Kuartil dapat membantu memahami distribusi data yang lebih rinci, termasuk adanya potensi outlier.
 ### Exploratory Data Analysis - Univariate Analysis
-Density Plot
+Histogram
+Bar Chart
+Density Plot, untuk mencari tahu distribusi nilai
 ### Exploratory Data Analysis 2 - Bivariate Analysis
 Correlation Matrix
 Scatter Plot
+Boxplot
 ### Supervised Learning - Regression
 Simple Linear Regression
 ### Unsupervised Learning - K-Means Clustering
