@@ -9,14 +9,14 @@ Perubahan pola curah hujan yang tidak diprediksi dengan akurat dapat mengakibatk
 
 ## Data yang Digunakan
 ### Annual Freshwater Withdrawals, Total (% of Internal Resources) - Indonesia
-Data ini mengukur jumlah total air tawar yang ditarik (withdrawn) dalam satu tahun dari total sumber daya air tawar yang tersedia di Indonesia. IData ini mencerminkan sejauh mana negara tersebut menggunakan sumber daya air tawar yang dimilikinya dalam satu tahun. Data ini penting untuk mengevaluasi tingkat penggunaan sumber daya air tawar di Indonesia dalam konteks keberlanjutan.
+Data ini mengukur jumlah total air tawar yang ditarik (withdrawn) dalam satu tahun dari total sumber daya air tawar yang tersedia di Indonesia. IData ini mencerminkan sejauh mana negara tersebut menggunakan sumber daya air tawar yang dimilikinya dalam satu tahun. Data ini penting untuk mengevaluasi tingkat penggunaan sumber daya air tawar di Indonesia dalam konteks keberlanjutan. Data source: https://data.worldbank.org/indicator/ER.H2O.FWTL.ZS?locations=ID
 ### Level of Water Stress: Freshwater Withdrawal as a Proportion of Available Freshwater Resources - Indonesia
 Data ini mengukur tingkat tekanan pada sumber daya air tawar di Indonesia. Ini dihitung sebagai rasio antara jumlah air tawar yang ditarik (withdrawn) dalam satu tahun dengan jumlah air tawar yang tersedia sebagai sumber daya air tawar yang tersedia. Jika nilai ini tinggi, itu menunjukkan potensi masalah dalam pemenuhan kebutuhan air. Ini adalah indikator penting untuk mengukur keseimbangan antara penggunaan air tawar dan ketersediaan air di suatu wilayah.
 Data source: https://data.worldbank.org/indicator/ER.H2O.FWST.ZS?locations=ID&name_desc=true
 ### Forest Area (% of Land Area) - Indonesia:
-Data ini mengukur persentase hutan di Indonesia. Data ini menunjukkan seberapa besar bagian negara tersebut yang masih ditutupi oleh hutan.
+Data ini mengukur persentase hutan di Indonesia. Data ini menunjukkan seberapa besar bagian negara tersebut yang masih ditutupi oleh hutan. Data source: https://data.worldbank.org/indicator/AG.LND.FRST.ZS?locations=ID
 ### Forest Area (sq. km) - Indonesia:
-Data ini mengukur luas hutan di Indonesia dalam kilometer persegi (sq. km). Ini adalah ukuran absolut dari luas hutan yang masih ada di negara tersebut. Ini penting untuk memahami ukuran aktual dari sumber daya hutan yang tersedia.
+Data ini mengukur luas hutan di Indonesia dalam kilometer persegi (sq. km). Ini adalah ukuran absolut dari luas hutan yang masih ada di negara tersebut. Ini penting untuk memahami ukuran aktual dari sumber daya hutan yang tersedia. Data source: https://data.worldbank.org/indicator/AG.LND.FRST.K2?locations=id
 
 ## Metode Prediksi
 ### Descriptive Statistics - Basic Measures
@@ -43,7 +43,8 @@ Correlation matrix membantu mengidentifikasi korelasi positif atau negatif antar
 Scatter Plot membantu melihat hubungan antara dua variabel numerik dalam bentuk titik-titik pada grafik. Ini sangat bermanfaat untuk memahami korelasi antara "Annual Freshwater Withdrawals" dan "Level of Water Stress" atau variabel lainnya. Anda dapat melihat pola linear atau nonlinear dan mengidentifikasi outlier.
 #### Boxplot
 Boxplot membantu melihat distribusi dan statistik penting seperti kuartil, median, dan outlier untuk satu atau beberapa variabel numerik.
-### Supervised Learning - Regression
-Simple Linear Regression
-### Unsupervised Learning - K-Means Clustering
-K-Means Clustering
+### Supervised Learning
+#### Simple Linear Regression
+Analisis simple linear regression digunakan untuk memodelkan hubungan linier antara dua variabel, yaitu variabel independen (X) dan variabel dependen (Y). Dalam konteks yang akan dianalisis, regresi linear akan membantu memahami hubungan antara variabel seperti "Annual Freshwater Withdrawals" dan "Forest Area (% of Land Area)." Misalnya, memprediksi bagaimana pengambilan air tawar tahunan dapat berubah seiring perubahan persentase hutan. Ini dapat memberikan wawasan tentang seberapa signifikan perubahan dalam hutan dapat memengaruhi ketersediaan air.
+### Unsupervised Learning
+#### K-Means Clustering
