@@ -9,7 +9,7 @@ Perubahan pola curah hujan yang tidak diprediksi dengan akurat dapat mengakibatk
 
 ## Data yang Digunakan
 ### Annual Freshwater Withdrawals, Total (% of Internal Resources) - Indonesia
-Data ini mengukur jumlah total air tawar yang ditarik (withdrawn) dalam satu tahun dari total sumber daya air tawar yang tersedia di Indonesia. IData ini mencerminkan sejauh mana negara tersebut menggunakan sumber daya air tawar yang dimilikinya dalam satu tahun. Data ini penting untuk mengevaluasi tingkat penggunaan sumber daya air tawar di Indonesia dalam konteks keberlanjutan. Data source: https://data.worldbank.org/indicator/ER.H2O.FWTL.ZS?locations=ID
+Data ini mengukur jumlah total air tawar yang ditarik (withdrawn) dalam satu tahun dari total sumber daya air tawar yang tersedia di Indonesia. Data ini mencerminkan sejauh mana negara tersebut menggunakan sumber daya air tawar yang dimilikinya dalam satu tahun. Data ini penting untuk mengevaluasi tingkat penggunaan sumber daya air tawar di Indonesia dalam konteks keberlanjutan. Data source: https://data.worldbank.org/indicator/ER.H2O.FWTL.ZS?locations=ID
 ### Level of Water Stress: Freshwater Withdrawal as a Proportion of Available Freshwater Resources - Indonesia
 Data ini mengukur tingkat tekanan pada sumber daya air tawar di Indonesia. Ini dihitung sebagai rasio antara jumlah air tawar yang ditarik (withdrawn) dalam satu tahun dengan jumlah air tawar yang tersedia sebagai sumber daya air tawar yang tersedia. Jika nilai ini tinggi, itu menunjukkan potensi masalah dalam pemenuhan kebutuhan air. Ini adalah indikator penting untuk mengukur keseimbangan antara penggunaan air tawar dan ketersediaan air di suatu wilayah.
 Data source: https://data.worldbank.org/indicator/ER.H2O.FWST.ZS?locations=ID&name_desc=true
