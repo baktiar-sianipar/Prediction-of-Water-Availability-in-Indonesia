@@ -11,7 +11,7 @@ Perubahan pola curah hujan yang tidak diprediksi dengan akurat dapat mengakibatk
 ### Annual Freshwater Withdrawals, Total (% of Internal Resources) - Indonesia
 Data ini mengukur jumlah total air tawar yang ditarik (withdrawn) dalam satu tahun dari total sumber daya air tawar yang tersedia di Indonesia. Data ini mencerminkan sejauh mana negara tersebut menggunakan sumber daya air tawar yang dimilikinya dalam satu tahun. Data ini penting untuk mengevaluasi tingkat penggunaan sumber daya air tawar di Indonesia dalam konteks keberlanjutan. Data source: https://data.worldbank.org/indicator/ER.H2O.FWTL.ZS?locations=ID
 ### Level of Water Stress: Freshwater Withdrawal as a Proportion of Available Freshwater Resources - Indonesia
-Data ini mengukur tingkat tekanan pada sumber daya air tawar di Indonesia. Ini dihitung sebagai rasio antara jumlah air tawar yang ditarik (withdrawn) dalam satu tahun dengan jumlah air tawar yang tersedia sebagai sumber daya air tawar yang tersedia. Jika nilai ini tinggi, itu menunjukkan potensi masalah dalam pemenuhan kebutuhan air. Ini adalah indikator penting untuk mengukur keseimbangan antara penggunaan air tawar dan ketersediaan air di suatu wilayah.
+Data ini mengukur tingkat stres pada sumber daya air tawar di Indonesia. Ini dihitung sebagai rasio antara jumlah air tawar yang ditarik (withdrawn) dalam satu tahun dengan jumlah air tawar yang tersedia sebagai sumber daya air tawar yang tersedia. Jika nilai ini tinggi, itu menunjukkan potensi masalah dalam pemenuhan kebutuhan air. Ini adalah indikator penting untuk mengukur keseimbangan antara penggunaan air tawar dan ketersediaan air di suatu wilayah.
 Data source: https://data.worldbank.org/indicator/ER.H2O.FWST.ZS?locations=ID&name_desc=true
 ### Forest Area (% of Land Area) - Indonesia:
 Data ini mengukur persentase hutan di Indonesia. Data ini menunjukkan seberapa besar bagian negara tersebut yang masih ditutupi oleh hutan. Data source: https://data.worldbank.org/indicator/AG.LND.FRST.ZS?locations=ID
@@ -27,7 +27,7 @@ Cari median dari variabel-variabel numerik untuk memahami distribusi data yang m
 #### Calculate standard deviation
 Cari sejauh mana data tersebar dari nilai rata-rata. Semakin tinggi deviasi standar, semakin besar variasi dalam data. Tingkat variabilitas dalam data dapat berdampak pada akurasi model prediksi. Variabilitas yang tinggi dapat mempersulit prediksi yang akurat.
 #### Calculate Min & max
-Nilai minimum dan maksimum memberikan batasan atas dan bawah dari rentang nilai yang ada dalam dataset. Dalam konteks yang akan dianalisis, ini bisa memberi gagasan tentang kisaran pengambilan air tawar tahunan, kisaran tingkat tekanan air, serta ukuran minimum dan maksimum dari luas hutan. Informasi ini dapat membantu mengidentifikasi data ekstrem atau outliner.
+Nilai minimum dan maksimum memberikan batasan atas dan bawah dari rentang nilai yang ada dalam dataset. Dalam konteks yang akan dianalisis, ini bisa memberi gagasan tentang kisaran pengambilan air tawar tahunan, kisaran tingkat stres air, serta ukuran minimum dan maksimum dari luas hutan. Informasi ini dapat membantu mengidentifikasi data ekstrem atau outliner.
 #### Calculate Quartiles
 Kuartil dapat membantu memahami distribusi data yang lebih rinci, termasuk adanya potensi outlier.
 ### Exploratory Data Analysis - Univariate Analysis
